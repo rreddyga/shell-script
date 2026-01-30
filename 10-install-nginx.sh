@@ -2,10 +2,11 @@
 
 # we need to check the root user or not 
 
-USER=$(id -u)
+USERId=$(id -u)
 
-if [ USER -eq 0 ]; then
+if [ $USERID -ne 0 ]; then
     echo "please run  this script  with the root user"
+    exit 1
 fi
 
 echo "installing nginx "
