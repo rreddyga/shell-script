@@ -9,7 +9,7 @@ echo "sum of two numbers: $SUM"
 
 # ARRAYS
 
-FRUITS=("Apple", "Banana","Mango","Watermilan")
+FRUITS=("Apple" "Banana" "Mango" "Watermilan")
 echo "fruits are ${FRUITS[@]}"
 echo "fruits are ${FRUITS[0]}"
 echo "fruits are ${FRUITS[1]}"
