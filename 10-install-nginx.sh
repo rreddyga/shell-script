@@ -4,7 +4,7 @@
 
 USERId=$(id -u)
 
-if [ $USERID -ne 0 ]; then
+if [ $USERId -ne 0 ]; then
     echo "please run  this script  with the root user"
     exit 1
 fi
