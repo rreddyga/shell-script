@@ -10,8 +10,8 @@ echo "sum of two numbers: $SUM"
 # ARRAYS
 
 FRUITS=("Apple" "Banana" "Mango" "Watermilan")
-echo "fruits are ${FRUITS[@]}"
-echo "fruits are ${FRUITS[0]}"
-echo "fruits are ${FRUITS[1]}"
-echo "fruits are ${FRUITS[2]}"
-echo "fruits are ${FRUITS[3]}"
+echo "All Fruits are  : ${FRUITS[@]}"
+echo "First Fruits is : ${FRUITS[0]}"
+echo "Second Fruit is : ${FRUITS[1]}"
+echo "Third Fruit is  : ${FRUITS[2]}"
+echo "Fourth Fruit is : ${FRUITS[3]}"
