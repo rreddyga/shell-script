@@ -17,12 +17,14 @@ VALIDATE()
         echo "$2... Success"
     fi
 }
-
+echo "nginx installing..."
 dnf install nginx -y
 VALIDATE $? "Installing nginx "
 
+echo "nodejs installing..."
 dnf install nodejs -y
 VALIDATE $? "Installing nodejs"
 
+echo "mysql installing..."
 dnf install mysql -y
-VALIDATE $2 "Installing mysql"
+VALIDATE $? "Installing mysql"
